@@ -1,0 +1,84 @@
+.intro-page {
+  /* background-color: #c3a9ff; */
+  width: 100%;
+  background-color: #242582;
+  display: grid;
+  grid-template-columns: 50% 1fr;
+  grid-template-rows: auto auto;
+  padding: 1vw;
+  max-width: 100%;
+}
+
+.profile {
+  grid-area: 1/1/2/2;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 2vw;
+  justify-self: center;
+  align-self: center;
+  border: 2px solid rgb(156, 156, 250);
+}
+
+.profile img {
+  width: 100%;
+  height: auto;
+}
+
+.body .title {
+  align-self: center;
+  border-right: 1px solid rgb(152, 152, 245);
+  border-bottom: 5px double rgb(152, 152, 245);
+  margin: 1vw;
+  padding: 1vw;
+  letter-spacing: 1px;
+  border-radius: 0px 0px 10px 10%;
+  color: rgb(204, 200, 223);
+}
+.intro {
+  grid-area: 2/1/3/3;
+  display: grid;
+  place-items: center;
+  letter-spacing: 0.2px;
+  padding: 2vw;
+  font-size: medium;
+  color: white;
+}
+
+.intro-text {
+  initial-letter: 2;
+  text-indent: 2vw;
+}
+
+.first-letter {
+  font-size: xx-large;
+}
+.outer-profile {
+  margin: auto;
+  width: max-content;
+  display: grid;
+  place-items: center;
+  border-left: 5px double rgb(152, 152, 245);
+  border-top: 0.5px solid rgb(152, 152, 245);
+  border-radius: 0px 50% 50% 50%;
+  background-color: #f6feff;
+}
+
+.pic-title {
+  grid-area: 1/1/2/3;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.deco .MuiSvgIcon-root {
+  width: 15px;
+  height: auto;
+}
+
+.deco {
+  padding-bottom: 15px;
+}

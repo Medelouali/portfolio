@@ -1,0 +1,52 @@
+.studies {
+  background-color: #242582;
+  height: 95vh;
+  max-width: 100%;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.logo {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  height: max-content;
+  padding: 2vw;
+}
+
+.logo .ensa {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid rgb(32, 14, 77);
+}
+
+.ensa img {
+  width: auto;
+  height: 100%;
+}
+
+.outer-ensa {
+  justify-self: center;
+  align-self: center;
+  border-top: 3px solid rgb(219, 223, 243);
+  border-right: 5px double rgb(219, 223, 243);
+  background-color: #f6feff;
+  border-radius: 50% 0px 50% 50%;
+}
+
+.statement {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.statement h2 {
+  width: 60%;
+  color: rgb(205, 205, 230);
+  text-indent: 4vw;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  padding: 1vw;
+  border-radius: 0 0 0 4px;
+}
