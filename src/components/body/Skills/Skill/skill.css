@@ -1,0 +1,31 @@
+.skill {
+  background-color: #1e1e1e;
+  color: rgb(217, 209, 241);
+  padding: 10px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 3vw 1fr;
+  grid-template-rows: max-content max-content;
+  border: 2px solid rgb(105, 105, 233);
+  margin: 6px;
+}
+
+.skill .type {
+  grid-area: 1/1/2/3;
+  border: 1px solid rgb(136, 136, 223);
+  border-radius: 10px;
+  width: max-content;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.skill .skills-list {
+  grid-area: 2/2/3/3;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  align-content: center;
+  cursor: pointer;
+}

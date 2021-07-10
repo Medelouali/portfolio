@@ -4,4 +4,6 @@
   align-items: center;
   flex-wrap: wrap;
   align-content: center;
+  background-color: rgb(182, 182, 223);
+  height: 100%;
 }

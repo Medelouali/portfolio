@@ -23,11 +23,11 @@ export default function Bar() {
                 <div className="dot" onClick={handlePager("Startups")}>{on("Startups") && <SelectAllTwoToneIcon/>}</div>
                 <div className="dot" onClick={handlePager("Open Source")}>{on("Open Source") && <SelectAllTwoToneIcon/>}</div>
             </div>
-            <motion.h2 
+            <motion.h3 
             initial={{opacity: 0}}
             animate={{opacity: 1}}
             transition={{duration: 2}}
-            className="current-page">{currentPage}</motion.h2>
+            className="current-page">{currentPage}</motion.h3>
         </div>
     );
 }
