@@ -3,13 +3,17 @@ import Intro from './Intro/Intro';
 import Passions from './Passions/Passions';
 import Studies from './Studies/Studies';
 import "./about.css";
+import { motion } from "framer-motion";
 
 export default function About() {
     return (
-        <div className="about">
+        <motion.div 
+        initial={{x: "100vw"}}
+        animate={{x: 0}}
+        className="about">
             <Intro/>
             <Studies/>
             <Passions/>
-        </div>
+        </motion.div>
     )
 }

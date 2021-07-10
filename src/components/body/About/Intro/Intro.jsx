@@ -12,13 +12,13 @@ export default function Intro() {
                         <motion.div className="profile"
                              initial={{opacity: 0}}
                              animate={{opacity: 1}}
-                             transition={{duration: 1}}
+                             transition={{duration: 0.5}}
                         ><img src={profile} alt="" /></motion.div>
                     </div>
                     <motion.h2 className="title"
                         initial={{opacity: 0, x: "100vw"}}
                         animate={{opacity: 1, x: 0}}
-                        transition={{duration: 2, delay: 1, type: 'spring', stiffness: 800}}
+                        transition={{duration: 1, delay: 0.3, type: 'spring', stiffness: 800}}
                     >Hi! I am El Ouali, front-end developper based in Marrakesh, Morocco.</motion.h2>
                 </div>
                 <div className="intro">

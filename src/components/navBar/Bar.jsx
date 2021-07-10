@@ -3,6 +3,7 @@ import "./bar.css";
 import SelectAllTwoToneIcon from '@material-ui/icons/SelectAllTwoTone';
 import { useDispatch, useSelector } from "react-redux";
 import pager from "../../redux/actions/pager"; 
+import { motion } from "framer-motion";
 
 export default function Bar() {
     const dispatch=useDispatch();
@@ -12,17 +13,21 @@ export default function Bar() {
         };
     };
     const currentPage=useSelector(state=>state.pager);
-
+    const on=(page)=>page===currentPage;
     return (
         <div className="nav-bar">
             <div className="dots">
-                <div className="dot" onClick={handlePager("About Me")}><SelectAllTwoToneIcon/></div>
-                <div className="dot" onClick={handlePager("Skills")}><SelectAllTwoToneIcon/></div>
-                <div className="dot" onClick={handlePager("Projects")}><SelectAllTwoToneIcon/></div>
-                <div className="dot" onClick={handlePager("Startups")}><SelectAllTwoToneIcon/></div>
-                <div className="dot" onClick={handlePager("Open Source")}><SelectAllTwoToneIcon/></div>
+                <div className="dot" onClick={handlePager("About Me")}>{on("About Me") && <SelectAllTwoToneIcon/>}</div>
+                <div className="dot" onClick={handlePager("Skills")}>{on("Skills") && <SelectAllTwoToneIcon/>}</div>
+                <div className="dot" onClick={handlePager("Projects")}>{on("Projects") && <SelectAllTwoToneIcon/>}</div>
+                <div className="dot" onClick={handlePager("Startups")}>{on("Startups") && <SelectAllTwoToneIcon/>}</div>
+                <div className="dot" onClick={handlePager("Open Source")}>{on("Open Source") && <SelectAllTwoToneIcon/>}</div>
             </div>
-            <h2 className="current-page">{currentPage}</h2>
+            <motion.h2 
+            initial={{opacity: 0}}
+            animate={{opacity: 1}}
+            transition={{duration: 2}}
+            className="current-page">{currentPage}</motion.h2>
         </div>
     );
 }

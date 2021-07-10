@@ -4,7 +4,6 @@
   margin-bottom: 1vh;
   margin-left: auto;
   margin-right: auto;
-  border-bottom: 1px solid rgb(221, 221, 240);
   color: white;
 }
 
@@ -26,11 +25,21 @@
 }
 
 .nav-bar .current-page {
-  text-align: center;
+  margin: 15px auto 15px auto;
+  width: max-content;
+  border: 1px solid rgb(221, 221, 240);
+  border-radius: 15px;
+  padding: 5px;
+  letter-spacing: 1.5px;
 }
 
-.dot .MuiSvgIcon-root {
+.dot .MuiSvgIcon-root,
+.on-page .MuiSvgIcon-root {
   width: 100%;
   height: auto;
   fill: white;
+}
+
+.on-page {
+  border: 3px double rgb(181, 214, 33);
 }
