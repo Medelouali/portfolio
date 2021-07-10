@@ -1,11 +1,14 @@
 import React from 'react';
-import About from './About/About';
 import "./body.css";
+import { useSelector } from "react-redux";
+import Manager from "./Manager";
 
 export default function Body() {
+    const currentPage=useSelector(state=>state.pager);
+
     return (
         <div className="body">
-            <About/>
+            <Manager page={currentPage}/>
         </div>
     )
 }
