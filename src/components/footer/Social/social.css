@@ -1,0 +1,22 @@
+.socials {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  width: 100%;
+}
+
+.social-icon {
+  width: 100%;
+  height: auto;
+  display: grid;
+  place-items: center;
+}
+
+.social-icon .MuiSvgIcon-root {
+  width: 50px;
+  height: auto;
+  cursor: pointer;
+}
+
+a {
+  color: aliceblue;
+}

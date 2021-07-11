@@ -8,6 +8,7 @@
   grid-template-rows: max-content max-content;
   border: 2px solid rgb(105, 105, 233);
   margin: 6px;
+  transform: rotateZ(-5deg);
 }
 
 .skill .type {

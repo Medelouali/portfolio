@@ -34,6 +34,11 @@
   color: rgb(175, 175, 235);
 }
 
+.current-page:hover {
+  border: 1px solid blue;
+  cursor: pointer;
+}
+
 .dot .MuiSvgIcon-root,
 .on-page .MuiSvgIcon-root {
   width: 100%;

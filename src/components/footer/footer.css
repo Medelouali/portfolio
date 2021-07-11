@@ -1,6 +1,46 @@
 .footer {
   background-color: #1d2022;
   width: 100%;
-  text-align: center;
   color: white;
+  display: grid;
+  place-items: center;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  grid-template-rows: max-content max-content;
+}
+
+.icon {
+  width: 2em;
+  height: auto;
+  grid-area: 1/2/2/3;
+  cursor: pointer;
+}
+
+.core {
+  width: 96%;
+  grid-area: 2/1/3/3;
+  background-color: #2f3436;
+  margin: 10px auto 10px auto;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.click-me {
+  width: max-content;
+  height: auto;
+  cursor: pointer;
+  border: 1px solid rgb(207, 207, 235);
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.click-me:hover {
+  background-color: #3d4346;
 }
