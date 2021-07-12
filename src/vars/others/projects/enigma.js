@@ -11,7 +11,16 @@ import pic10 from "../../../statics/pics/projects/enigma/pic10.jpg";
 
 const enigma={
     title: "Enigma",
-    description: `Enigma is a cipher device developed and used in the early- to mid-20th century to protect commercial, diplomatic, and military communication. That's the formel answer if you are asking what the hell is Enigma anyway? But here we've developped a an Enigma Interpreter and we called such a thing because of the amount of math it's built on and it's use simplicity. Generally, when we talk about math we often link it up to complexity, well that's where Enigma comes in, it's just the right tool to bypass this misleading view. In this documentation, we try to keep it sample by explainning in great details each concept and ensuring that you know how to use it in your field using examples. While using Enigma Interpreter just keep in mind this: "We have built Enigma because we are problem solvers so please use this tool to solve problems" `,
+    description: `
+        In this project, I demonstrate my ability to design algorithms to solve specific tasks, 
+        for example, I have combined recursion and Jsx. One of the most used powerful comcepts in 
+        this project is recursion, it's used almost everywhere, and with the power of regular 
+        expressions, strings got really friendly. The idea behind Enigma is similar to Matlab, 
+        it's simply a linear interpreter with certain flexibility, I have tried to make it close 
+        to the way we write code in variaty of programming languages. First I thought about this 
+        project I had one goal in my mind is to test my javascript skills with some math concepts
+        I learned along the way.  
+    `,
     link: "https://enigmma.netlify.app/",
     images: [
         pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9, pic10

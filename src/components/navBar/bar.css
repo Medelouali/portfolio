@@ -11,18 +11,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 30%;
+  width: max-content;
   margin: auto;
 }
 
 .dots .dot {
-  width: 1vw;
-  height: 1vw;
+  width: 1em;
+  height: 1em;
   border: 3px double rgb(155, 155, 224);
-  border-radius: 50%;
   cursor: pointer;
   display: grid;
   place-items: center;
+  border-radius: 4px;
+  margin: 2px;
 }
 
 .nav-bar .current-page {
@@ -40,13 +41,8 @@
   cursor: pointer;
 }
 
-.dot .MuiSvgIcon-root,
-.on-page .MuiSvgIcon-root {
+.dot .MuiSvgIcon-root {
   width: 100%;
   height: auto;
   fill: white;
-}
-
-.on-page {
-  border: 3px double rgb(181, 214, 33);
 }

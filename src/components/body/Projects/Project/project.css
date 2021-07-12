@@ -46,10 +46,6 @@
   letter-spacing: 1px;
 }
 
-.project-description::-webkit-scrollbar-thumb {
-  background-color: blue;
-  width: 10px;
-}
 .project-link {
   width: 100%;
   height: 100%;

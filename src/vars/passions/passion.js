@@ -5,26 +5,33 @@ import problem from '../../statics/pics/about/passions/problem.png';
 
 const passions=[
     {
-        logo: hacking,
-        passion: "Hacking",
-        text: "Some text about hacking goes hereSome text about hacking goes hereSome text about hacking goes hereSome text about hacking goes hereSome text about hacking goes here"
-    },
-    {
         logo: design,
         passion: "Web Design",
-        text: "Some text about hacking goes hereSome text about hacking goes hereSome text about hacking goes hereSome text about hacking goes hereSome text about hacking goes here"
-    },
-    {
-        logo: music,
-        passion: "Music",
-        text: "Some text about hacking goes hereSome text about hacking goes hereSome text about hacking goes hereSome text about hacking goes hereSome text about hacking goes here"
+        text: `
+            From experience, developping apps wasn't really a big challenge for me but designing 
+            them was a big one. I think design is what makes apps alive by making them human 
+            friendly. Design is what lets us build interactive, reliable and scalable digital 
+            products. 
+        `    
     },
     {
         logo: problem,
         passion: "Problem Solving",
-        text: "Some text about hacking goes hereSome text about hacking goes hereSome text about hacking goes hereSome text about hacking goes hereSome text about hacking goes here"
+        text: `
+            I got into web developpement because I had in mind some projects to build, in other 
+            words, I had problems. 
+        `
     },
-
+    {
+        logo: music,
+        passion: "Music",
+        text: ``
+    },
+    {
+        logo: hacking,
+        passion: "Hacking",
+        text: ``
+    },
 ]
 
 export default passions;

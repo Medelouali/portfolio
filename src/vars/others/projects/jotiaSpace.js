@@ -21,7 +21,17 @@ import pic20 from "../../../statics/pics/projects/jotiaSpace/pic20.jpg";
 
 const jotiaSpace={
     title: "JotiaSpace",
-    description: `JotiaSpace is the perfect place to sell the things you no longer need, and in case you are looking for near opportunities to buy any products with the price you have in mind, we got you covered, JotiaSpace is just the right platform to do that with multiple choices to chose from in order to fit your own proper needs. Come on sign up and start exploring JotiaSpace's opportunities world around you!`,
+    description: `
+        The first time I started writing code I have listened to alot of advices from different 
+        people but, to be honest and cut off the crap, the original idea I'll never get red off is 
+        this: 'Working on real projects is the best way to master I have learned'. So the thing is 
+        even though the idea of the project is not original, it's still worth it to put my skills 
+        in it. The idea behind JotiaSpace is to sell used products unlike the new ones, instead of 
+        getting red of them, we can get some dollars out of them. To be honest, in this project I 
+        have learned alot of stuff like working with APIs, building one, working on backend, 
+        connecting front-end to the backend, working on the database, besically the playing around 
+        with the whole stack.  
+    `,
     link: "https://jotiaspaceweb.netlify.app/",
     images: [
         pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9, pic10,
