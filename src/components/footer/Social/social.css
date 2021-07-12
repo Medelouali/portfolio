@@ -20,3 +20,7 @@
 a {
   color: aliceblue;
 }
+
+.social-icon .MuiSvgIcon-root:hover {
+  fill: rgb(178, 178, 231);
+}

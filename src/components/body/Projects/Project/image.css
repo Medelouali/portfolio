@@ -1,0 +1,14 @@
+.img {
+  height: 100%;
+  width: auto;
+  display: inline-block;
+  margin: 0 5px 0 5px;
+  border-radius: 6px;
+  border: 2px solid rgb(225, 226, 235);
+  position: relative;
+}
+
+.img .center-img {
+  height: 100%;
+  width: auto;
+}

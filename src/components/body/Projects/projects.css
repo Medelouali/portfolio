@@ -1,0 +1,8 @@
+.projects {
+  width: 95%;
+  margin: 10px auto 10px auto;
+  background-color: #6160604e;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 10px;
+}

@@ -20,8 +20,6 @@ export default function Bar() {
                 <div className="dot" onClick={handlePager("About Me")}>{on("About Me") && <SelectAllTwoToneIcon/>}</div>
                 <div className="dot" onClick={handlePager("Skills")}>{on("Skills") && <SelectAllTwoToneIcon/>}</div>
                 <div className="dot" onClick={handlePager("Projects")}>{on("Projects") && <SelectAllTwoToneIcon/>}</div>
-                <div className="dot" onClick={handlePager("Startups")}>{on("Startups") && <SelectAllTwoToneIcon/>}</div>
-                <div className="dot" onClick={handlePager("Open Source")}>{on("Open Source") && <SelectAllTwoToneIcon/>}</div>
             </div>
             <motion.h3 
             initial={{opacity: 0}}
