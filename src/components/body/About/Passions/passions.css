@@ -23,7 +23,7 @@
   grid-template-columns: 15px 1fr 15px;
   grid-template-rows: 15px auto 15px auto 10px auto;
   grid-gap: 5px;
-  background-color: thistle;
+  background-color: rgb(191, 193, 216);
   padding: 1vw;
   max-width: 90%;
   border-radius: 15px 15px 15px 0px;
@@ -31,10 +31,14 @@
   margin: 5px;
   justify-self: center;
   align-self: center;
-  height: 95%;
+  height: max-content;
   box-shadow: 0 1px 20px 1px black;
 }
 
+.card:hover {
+  transform: scale(1.01);
+  border: 3px solid rgb(102, 57, 161);
+}
 .card .logo {
   grid-area: 2/2/3/3;
   border: 2px solid rgb(54, 54, 202);
@@ -69,9 +73,12 @@
   grid-area: 6/2/7/3;
   max-width: 100%;
   border-radius: 10px 0 10px 5px;
-  border-left: 2px solid rgb(129, 129, 235);
-  border-bottom: 5px double rgb(147, 147, 238);
+  border-left: 2px solid rgb(255, 255, 255);
+  border-bottom: 5px double rgb(255, 255, 255);
   padding: 2px;
+  color: #242582;
+  font-weight: 600;
+  padding: 5px;
 }
 
 .group-title {
