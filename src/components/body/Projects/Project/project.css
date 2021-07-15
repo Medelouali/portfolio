@@ -21,7 +21,7 @@
   overflow-y: hidden;
   padding: 5px;
 }
-.project-title {
+.project-title a {
   width: max-content;
   padding: 3px;
   margin: 4px;
@@ -30,6 +30,7 @@
   color: rgb(107, 107, 235);
   letter-spacing: 1px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .project-description {
