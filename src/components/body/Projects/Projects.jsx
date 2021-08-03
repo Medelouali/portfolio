@@ -14,8 +14,8 @@ export default function Projects() {
         animate={{x: 0}}
         transition={{duration: 0.5}}
         className="projects">
-            <Project project={enigma} />
             <Project project={jotiaSpace} />
+            <Project project={enigma} />
         </motion.div>
     )
 }
